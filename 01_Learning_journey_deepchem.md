@@ -5,8 +5,8 @@
 ---
 
 ## 📌 Purpose of This Document
-This file tracks my entire learning journey as I explore deep learning tools for chemistry, biology, and computational science.  
-When I started from installation of Deepchem, I followed the instructions given in the "The DeepChem Book-Democratizing Deep Learning for Sciences"
+This file tracks my entire learning journey as I explore deep learning tools for chemistry, biology, and computational science.   
+When I started from installation of Deepchem, I followed the instructions given in the "The DeepChem Book-Democratizing Deep Learning for Sciences". 
 I kindly acknowledge the author, Bharath Ramsundar and the DeepChem team.
 
 It includes:
