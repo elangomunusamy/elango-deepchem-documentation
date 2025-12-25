@@ -21,6 +21,24 @@ It includes:
 
 ## 🧪 1. Environment Setup
 
+### ✔️ Installing Python
+- I installed ubuntu 24.04 (WSL) in my windows laptop. The command `lsb_release -a` can be used to know your version.
+- The default python version is 3.13.9 and is the latest version. The command `python --version` will tell your python version.
+- In addition to latest python version, I also have other previous versions of python installed.
+
+### ✔️ Creating Environments using Conda
+- To create a new environment in python, miniconda3 could be installed in python.  I have installed conda 25.11.1 in ubuntu WSL.
+- A new environment is created with the command `conda create -n deepchem-27 python=3.10`.
+- The deepchem book was written few years ago where older versions of scientific tools were used. So to learn from the book, it is advisable to use older versions of all the tools.
+- After the environment is created, activate it using the command `conda activate deepchem-27` and deactivate it using the command `conda deactivate`.
+- Inside the deepchem-27 environment, we should install the versions of deepchem, pytorch, tensorflow, rdkit, etc that are compatible with each other.
+- Given below are the tools/versions installed with python version 3.10
+  - `pip install torch torchvision torchaudio` version 2.9
+  - `pip install numpy==1.24`
+  - `pip install rdkit-pypi matplotlib scikit-learn`
+  - `pip install deepchem==2.7.1`
+  - `pip install tensorflow==2.12.0`
+  
 ### ✔️ Installing DeepChem
 - Attempted installation with Python 3.13 → **failed** due to version incompatibility.
 - Error: `AttributeError: 'str' object has no attribute 'as_numpy_dtype'`
