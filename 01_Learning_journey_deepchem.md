@@ -44,7 +44,11 @@ It includes:
 - Error: `AttributeError: 'str' object has no attribute 'as_numpy_dtype'`
 - Diagnosis: DeepChem 2.5.0 is incompatible with TensorFlow 2.20 and Python 3.13.
 - Fix: Created a new environment with Python 3.10 and installed DeepChem 2.7.1.
-
+- Error: `AttributeError: module 'scipy.stats' has no attribute 'gilbrat'. Did you mean: 'gibrat'?`
+- Diagnosis: Deepchem 2.7 requires scipy older version. Installed scipy 1.10.1
+- Error: `ModuleNotFoundError: No module named 'numpy._core'`
+- Diagnosis: Installed the numpy==1.26.4 version
+- 
 ### ✔️ Installing TensorFlow
 - TensorFlow 2.12 not available for Python 3.13.
 - Solution: Installed TensorFlow 2.12 inside Python 3.10 environment.
